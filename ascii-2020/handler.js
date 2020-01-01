@@ -10,6 +10,7 @@ module.exports = async (event, context) => {
 //    if(!qs["q"]) {
 //      return context.status(400).fail("Give a message with ?q=msg-here")
 //    }
+    console.log(event)
 
     let msg = event.query["q"].toUpper()
 
