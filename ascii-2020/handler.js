@@ -2,7 +2,6 @@
 //const querystring = require('querystring');
 
 module.exports = async (event, context) => {
-    console.log(query)
 
 //   if(event.query && event.query.indexOf("?")==0) {
 //      event.query = event.query.substr(1)
