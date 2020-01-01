@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  ascii-2020:
+    lang: node12
+    handler: ./ascii-2020
+    image: ascii-2020:latest
+
