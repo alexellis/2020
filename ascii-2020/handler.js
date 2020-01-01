@@ -3,7 +3,7 @@ const querystring = require('querystring');
 
 module.exports = async (event, context) => {
 
-    let qs = queryString.parse(event.query)
+    let qs = querystring.parse(event.query)
     if(!qs["q"]) {
       return context.status(400).fail("Give a message with ?q=msg-here")
     }
