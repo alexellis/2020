@@ -10,5 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "wordwrap": "^1.0.0"
   }
 }
