@@ -22,6 +22,7 @@ module.exports = async (event, context) => {
 ┗━━┛┗━━┛┗━━┛┗━━┛`
 
     return context
+        .headers({"Content-type": "text/plain"})
         .status(200)
         .succeed(result);
 }
