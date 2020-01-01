@@ -1,16 +1,18 @@
 "use strict"
-const querystring = require('querystring');
+//const querystring = require('querystring');
 
 module.exports = async (event, context) => {
-    if(event.query && event.query.indexOf("?")==0) {
-      event.query = event.query.substr(1)
-    }
-    let qs = querystring.parse(event.query)
-    if(!qs["q"]) {
-      return context.status(400).fail("Give a message with ?q=msg-here")
-    }
+    console.log(query)
 
-    let msg = qs["q"].toUpper()
+//   if(event.query && event.query.indexOf("?")==0) {
+//      event.query = event.query.substr(1)
+//    }
+//    let qs = querystring.parse(event.query)
+//    if(!qs["q"]) {
+//      return context.status(400).fail("Give a message with ?q=msg-here")
+//    }
+
+    let msg = event.query["q"].toUpper()
 
     let result = `┏━━┓┏━━┓┏━━┓┏━━┓
 ┗━┓┃┃┏┓┃┗━┓┃┃┏┓┃
