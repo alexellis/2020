@@ -18,6 +18,12 @@ curl -s https://alexellis.o6s.io/ascii-2020?q=teamserverless
 ┗━━┛┗━━┛┗━━┛┗━━┛
 ```
 
+Use a hashtag i.e. `#openfaas`:
+
+```sh
+curl -s https://alexellis.o6s.io/ascii-2020?q=%23openfaas
+```
+
 Or make your own link: https://alexellis.o6s.io/ascii-2020?q=teamserverless
 
 # Backlog
