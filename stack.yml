@@ -7,3 +7,5 @@ functions:
     lang: node12
     handler: ./ascii-2020
     image: ascii-2020:latest
+    labels:
+      com.scale.zero: false
