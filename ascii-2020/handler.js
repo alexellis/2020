@@ -20,7 +20,10 @@ module.exports = async (event, context) => {
  ${wrapped}
 ┃┏━┛┃┃┃┃┃┏━┛┃┃┃┃
 ┃┗━┓┃┗┛┃┃┗━┓┃┗┛┃
-┗━━┛┗━━┛┗━━┛┗━━┛`
+┗━━┛┗━━┛┗━━┛┗━━┛
+
+#YOLO
+`
 
   return context
     .headers({'Content-type': 'text/plain'})
