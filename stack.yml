@@ -6,6 +6,6 @@ functions:
   ascii-2020:
     lang: node12
     handler: ./ascii-2020
-    image: ascii-2020:latest
+    image: ascii-2020:0.2.0
     labels:
       com.scale.zero: false
