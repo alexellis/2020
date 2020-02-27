@@ -4,7 +4,7 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"No tests specified\""
   },
   "keywords": [],
   "author": "",
