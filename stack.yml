@@ -8,5 +8,4 @@ functions:
     handler: ./ascii-2020
     image: ascii-2020:0.2.0
     labels:
-      com.scale.zero: false
-
+      com.openfaas.scale.zero: false
