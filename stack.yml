@@ -9,3 +9,4 @@ functions:
     image: ascii-2020:0.2.0
     labels:
       com.openfaas.scale.zero: false
+      awesome: true
