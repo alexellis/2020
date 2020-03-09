@@ -22,7 +22,7 @@ module.exports = async (event, context) => {
 ┃┗━┓┃┗┛┃┃┗━┓┃┗┛┃
 ┗━━┛┗━━┛┗━━┛┗━━┛
 
-O HAI!
+O HAI :)
 `
 
   return context
