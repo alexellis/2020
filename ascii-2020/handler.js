@@ -24,7 +24,7 @@ module.exports = async (event, context) => {
 `
 
   return context
-    .headers({'Content-type': 'text/plain', "Access-Control-Allow-Origin": "http://localhost:8000"})
+    .headers({'Content-type': 'text/plain', "Access-Control-Allow-Origin": "http://127.0.0.1:8000"})
     .status(200)
     .succeed(result)
 }
